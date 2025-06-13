@@ -59,32 +59,34 @@ color: #2e2f42;
     background-color: #2e2f42;
     width: 1440px;
     height: 600px;
-    background-size: contain;
+  
 }
 .hero-baner-title {
     
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07143;
+        line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
 }
-.btn {
+.hero-baner-button {
     
          background-color: #4d5ae5;
          color: #fff;
          border: none;
          cursor: pointer;
 }
-.btn:hover {
+.hero-baner-button:hover {
     background-color: #404bbf;
 }
-.btn:focus {
+.hero-baner-button:focus {
    background-color: #4d5ae5;
 }
-
-.description-subtitle {
+.team {
+    background-color: #f4f4fd;
+}
+.description-list-item-title {
     
         font-weight: 500;
         font-size: 20px;
@@ -92,7 +94,7 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         color: #2e2f42;
 }
-.text-discription {
+.description-list-item-text {
     
         font-weight: 400;
         font-size: 16px;
@@ -101,7 +103,7 @@ color: #2e2f42;
         color: #434455;
 }
 
-.team-title {
+.team-head-title {
     
         font-weight: 700;
         font-size: 36px;
@@ -110,7 +112,7 @@ color: #2e2f42;
         text-align: center;
         color: #2e2f42;
 }
-.team-subtitle {
+.team-list-item-title {
   
         font-weight: 500;
         font-size: 20px;
@@ -119,7 +121,7 @@ color: #2e2f42;
         text-align: center;
         color: #2e2f42;
 }
-.team-description {
+.team-list-item-text {
    
         font-weight: 400;
         font-size: 16px;
@@ -129,7 +131,7 @@ color: #2e2f42;
         color: #434455;
 }
 
-.portfolio-title {
+.portfolio-head-title {
     
         font-weight: 700;
         font-size: 36px;
@@ -139,7 +141,7 @@ color: #2e2f42;
         color: #2e2f42;
 }
 
-.portfolio-subtitle {
+.portfolio-list-item-title {
     
         font-weight: 500;
         font-size: 20px;
@@ -148,7 +150,7 @@ color: #2e2f42;
         color: #2e2f42;
 }
 
-.portfolio-text {
+.portfolio-list-item-text {
 
         font-weight: 400;
         font-size: 16px;
