@@ -68,12 +68,12 @@ color: #2e2f42;
         line-height: 1.07;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #fff;
+        color: #2e2f42;
 }
 .hero-baner-button {
     
          background-color: #4d5ae5;
-         color: #fff;
+         color:#fff;
          border: none;
          cursor: pointer;
 }
@@ -84,7 +84,7 @@ color: #2e2f42;
    background-color: #4d5ae5;
 }
 .team {
-    background-color: #f4f4fd;
+    background-color: #2e2f42;
 }
 .description-list-item-title {
     
@@ -111,6 +111,7 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: uppercase;
 }
 .team-list-item-title {
   
@@ -139,6 +140,7 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        text-transform: uppercase;
 }
 
 .portfolio-list-item-title {
