@@ -57,8 +57,7 @@ color: #2e2f42;
 
 .hero-baner {
     background-color: #2e2f42;
-    width: 1440px;
-    height: 600px;
+    
   
 }
 .hero-baner-title {
@@ -92,6 +91,13 @@ color: #2e2f42;
 .team {
     background-color: #F4F4FD;
 }
+.team-list {
+    display: flex;
+}
+
+.team-list-item {
+    background-color: #ffffff;
+}
 .description-list-item-title {
     
         font-weight: 500;
@@ -99,7 +105,7 @@ color: #2e2f42;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        background-color: #FFFFFF;
+        
 }
 .description-list-item-text {
     
@@ -108,7 +114,7 @@ color: #2e2f42;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
-        background-color: #FFFFFF;
+        
 }
 
 .team-head-title,
@@ -124,7 +130,7 @@ color: #2e2f42;
         text-transform: capitalize;
 }
 .team-list-item-title {
-  
+    font-family: "Roboto", sans-serif;
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -132,8 +138,10 @@ color: #2e2f42;
         text-align: center;
         color: #2e2f42;
 }
+  
+      
 .team-list-item-text {
-   
+    
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
@@ -141,13 +149,13 @@ color: #2e2f42;
         text-align: center;
         color: #434455;
 }
-
-.portfolio-head-title
-    
+   
+ 
     
      
 
 .portfolio-list-item-title {
+    
     
         font-weight: 500;
         font-size: 20px;
@@ -158,6 +166,7 @@ color: #2e2f42;
 
 .portfolio-list-item-text {
 
+    
         font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
