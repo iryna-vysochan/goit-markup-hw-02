@@ -63,31 +63,33 @@ color: #2e2f42;
 }
 .hero-baner-title {
     
+    
         font-weight: 700;
         font-size: 56px;
-        line-height: 1.07;
+        line-height: 1.07143;
         letter-spacing: 0.02em;
         text-align: center;
-        color: #2e2f42;
+        color: #fff;
 }
 .hero-baner-button {
     
-         background-color: #4d5ae5;
-         color:#fff;
-         border: none;
-         cursor: pointer;
-         font-weight: 500;
-         line-height: 1.5;
-         letter-spacing: 0.04em;
+   
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #fff;
+        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background-color: #4d5ae5;
 }
 .hero-baner-button:hover {
     background-color: #404bbf;
 }
 .hero-baner-button:focus {
-   background-color: #404BBF;
+   background-color: #4d5ae5;
 }
 .team {
-    background-color: #FFFFFF;
+    background-color: #f4f4fd;
 }
 .description-list-item-title {
     
@@ -106,7 +108,9 @@ color: #2e2f42;
         color: #434455;
 }
 
-.team-head-title {
+.team-head-title,
+.portfolio-head-title {
+    
     
         font-weight: 700;
         font-size: 36px;
@@ -135,16 +139,10 @@ color: #2e2f42;
         color: #434455;
 }
 
-.portfolio-head-title {
+.portfolio-head-title
     
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-}
+    
+     
 
 .portfolio-list-item-title {
     
