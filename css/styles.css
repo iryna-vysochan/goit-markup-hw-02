@@ -76,15 +76,18 @@ color: #2e2f42;
          color:#fff;
          border: none;
          cursor: pointer;
+         font-weight: 500;
+         line-height: 1.5;
+         letter-spacing: 0.04em;
 }
 .hero-baner-button:hover {
     background-color: #404bbf;
 }
 .hero-baner-button:focus {
-   background-color: #4d5ae5;
+   background-color: #404BBF;
 }
 .team {
-    background-color: #2e2f42;
+    background-color: #FFFFFF;
 }
 .description-list-item-title {
     
@@ -111,7 +114,7 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: uppercase;
+        text-transform: capitalize;
 }
 .team-list-item-title {
   
@@ -140,7 +143,7 @@ color: #2e2f42;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
-        text-transform: uppercase;
+        text-transform: capitalize;
 }
 
 .portfolio-list-item-title {
